@@ -1,0 +1,110 @@
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.box1{
+    height: 600px;
+    width: 100%;
+    border: #333 1px solid;
+    display: flex;
+}
+.info{
+    height: 400px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 27px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.infotwo{
+    height: 400px;
+    width: 50%;
+
+}
+.mus{
+    height: 400px;
+    width: 400px;
+    padding: 80px;
+    border-radius: 50%;
+    background-image: url(https://img.freepik.com/premium-photo/smiling-child-specialist_1077802-113579.jpg?w=740);
+    margin-left: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.skills ,ul{
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+    text-transform: capitalize;
+}
+#hed{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project p {
+    margin-top: 5px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
